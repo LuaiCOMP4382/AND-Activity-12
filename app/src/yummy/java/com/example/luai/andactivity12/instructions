@@ -1,0 +1,5 @@
+TODO (2): Create a strings.xml file for the yummy flavor, and in it copy the strings.xml of yuck flavor, but change the string values to happier ones instead of depressing.
+TODO (3): Create an empty MainActivity for the yummy flavor.
+TODO (4): In the newly created activity's layout, make it the same as yuck's main activity layout, but make the text color blue instead of red. You can use the colors #0008ff and #000787
+TODO (5): After you are done, go to "Build Variants" on the left, and choose yuckDebug. Run it to see the depressing stuff.
+TODO (6): Run again with yummyDebug this time. Hopefully things are blue now!

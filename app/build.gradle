@@ -16,15 +16,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    // TODO (1): Define the flavor yummy, give it dimension "version" and a suitable applicationId
     flavorDimensions "version"
     productFlavors {
         yuck {
             dimension "version"
             applicationId "com.example.luai.andactivity12.yuck"
-        }
-        yummy {
-            dimension "version"
-            applicationId "com.example.luai.andactivity12.yummy"
         }
     }
 }
